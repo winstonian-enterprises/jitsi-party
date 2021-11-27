@@ -8,6 +8,7 @@ $mobile_portrait_length: 480px !default;
 }
 
 .chatstream-section {
+  position: relative;
   flex: 0.6;
   justify-content: space-around;
   padding-top: 6rem;
@@ -18,11 +19,28 @@ $mobile_portrait_length: 480px !default;
 
 #conversejs {
   z-index: 5 !important;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
 
   .badge,
   .chat-info,
   .hide-occupants {
     display: none !important;
+  }
+
+  .converse-chatboxes {
+    position: inherit;
+    width: 100%;
+    height: 100%;
+  }
+
+  .box-flyout {
+    width: auto;
+    height: calc(100% - 1rem);
+    position: inherit;
+    margin: 0.5rem;
   }
 
   .chat-head {
@@ -42,6 +60,9 @@ $mobile_portrait_length: 480px !default;
   }
 
   .chatroom {
+    width: 100% !important;
+    max-height: 100%;
+
     // color themes
     .separator {
       border-bottom: 2px solid $chat-separator-bars !important;

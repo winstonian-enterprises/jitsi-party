@@ -6,6 +6,14 @@ import debug from "debug";
 const log = debug("app:chatroom");
 
 /**
+ * converse-chats position: relative
+ * .flyout .box-flyout
+ *  width: 38vw;
+    margin-left: -1.5rem;
+    height: 63vh;
+ */
+
+/**
  * This function is used to remove info cached
  * in the local and session storage for converse.js
  */
