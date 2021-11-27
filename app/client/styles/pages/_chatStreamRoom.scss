@@ -157,26 +157,26 @@ $mobile_portrait_length: 480px !default;
       background-color: $message-area-bg !important;
     }
 
-    // .emoji-picker__header,
-    // .emoji-skintone-picker {
-    //   background-color: $emoji-header-footer !important;
-    // }
+    .emoji-picker__header,
+    .emoji-skintone-picker {
+      background-color: $emoji-header-footer !important;
+    }
 
-    // .emoji-picker {
-    //   background-color: $emoji-separator !important;
-    // }
+    .emoji-picker {
+      background-color: $emoji-separator !important;
+    }
 
-    // .emoji-picker__lists {
-    //   background-color: $emoji-popup-bg !important;
-    // }
+    .emoji-picker__lists {
+      background-color: $emoji-popup-bg !important;
+    }
 
-    // .emoji-category__heading {
-    //   color: $emoji-category-heading !important;
-    // }
+    .emoji-category__heading {
+      color: $emoji-category-heading !important;
+    }
 
-    // .toggle-emojis:focus {
-    //   outline: 0px !important;
-    // }
+    .toggle-emojis:focus {
+      outline: 0px !important;
+    }
 
     // other adjustments
     .chat-content__help {
